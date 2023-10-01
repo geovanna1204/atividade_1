@@ -1,13 +1,80 @@
-body {
+/* index.css */
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  width: 100vw;
+  height: 45vh;
+  background-color: #2C5591;
+}
+
+#menu{
+  margin-top: -40px;
+}
+
+#menu > a{
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.titulo {
+  position: absolute;
+  top: 08%;
+  left: 40%;
+  width: 35vw;
+  color: white;
+}
+
+#nome{
+  padding-top: 40px;
+}
+
+#bio{
+  padding-top: 15px;
+  text-align: justify;
+}
+
+#dimg{
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+#img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.corpo{
+  margin-top: 40px;
+  margin-left: 40vw;
+  width: 35vw;
+  padding: 5px;
+}
+
+.corpo h2{
+  padding-top: 5px;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.corpo h3{
+  padding-top: 5px;
+  margin-top: 30px;
+  font-weight: lighter;
+}
+
+.corpo p{
+  font-size: 0.8em;
+}
+
+.p1{
+  margin-top: 20px;
 }
